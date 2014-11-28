@@ -293,9 +293,31 @@ p.ultrabig {
     width: 300px;
     margin-bottom: 20px; }
 
+.big-list {
+  width: 80%; }
+  .big-list li {
+    font-weight: bold;
+    font-size: 50px; }
+
 .codelab-txt {
   position: absolute;
   left: 30px;
   top: 170px;
   width: 45%;
   text-align: center; }
+
+.last h4 {
+  margin-top: 140px;
+  color: #dedede; }
+  .last h4 a {
+    color: #dedede; }
+.last img {
+  position: relative;
+  display: inline-block; }
+  .last img.twitter {
+    width: 164px;
+    top: -30px; }
+  .last img.github {
+    width: 200px; }
+.last .ultrabig {
+  color: #fff; }

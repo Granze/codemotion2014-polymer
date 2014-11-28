@@ -214,10 +214,42 @@ p.ultrabig {
   }
 }
 
+.big-list {
+  width: 80%;
+  li {
+    font-weight: bold;
+    font-size: 50px;
+  }
+}
+
 .codelab-txt {
   position: absolute;
   left: 30px;
   top: 170px;
   width: 45%;
   text-align: center;
+}
+
+.last {
+  h4 {
+    margin-top: 140px;
+    color: #dedede;
+    a {
+      color: #dedede;
+    }
+  }
+  img {
+    position: relative;
+    display: inline-block;
+    &.twitter {
+      width: 164px;
+      top: -30px;
+    }
+    &.github {
+      width: 200px;
+    }
+  }
+  .ultrabig {
+    color: #fff;
+  }
 }
